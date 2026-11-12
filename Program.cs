@@ -142,7 +142,7 @@ void BadGuyMove()
 {
     for (int y = 0; y < mapArray.Length; y++)
     {
-        for (int x = mapArray.Length - 1; x > 0; x--)
+        for (int x = mapArray[y].Length - 1; x > 0; x--)
         {
             if (mapArray[y][x] == '%')
             {
